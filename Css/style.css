@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;1,300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&family=Roboto:ital@1&display=swap");
+
+/* start html,body */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" sans-serif ;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+/* end html, body */
+
+/* start navbar */
+
+a {
+  text-decoration: none;
+  color: rgba(34, 54, 69, 0.7);
+  font-weight: 500;
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  background: white;
+  padding: 3rem 2rem;
+  height: 0rem;
+  min-height: 12vh;
+}
+
+.navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-navbrand {
+  font-family: "Pacifico" cursive;
+  font-size: 2.5rem;
+  color: #e74c3c;
+}
+
+.navbar-toggler {
+  background: #e74c3c;
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: #fff;
+}
+
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+  width: 10px;
+  margin-left: 10px;
+}
+
+.navbar-expand-lg .navbarnav .nav-link {
+  padding: 2rem 1.2rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.navbar-expand-lg .navbarnav .nav-link:hover {
+  border-top: 4px solid #e74c3c;
+}
+
+.navbar-expand-lg .navbarnav .nav-link.active {
+  border-top: 4px solid #e74c3c;
+  color: #e74c3c;
+}
+
+.navbar-nav button {
+  padding: 1.2rem 0;
+}
+
+.navbar-nav .btn {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 0;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 1px;
+}
+
+.navbar-nav .btn:hover {
+  background-color: #0a3d62;
+}
+
+/* end navbar */
+
+/* start carousel */
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-caption h5 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+.slider-btn {
+  margin-top: 30px;
+}
+
+.slider-btn .btn {
+  background-color: #ffd700;
+  color: white;
+  border-radius: 0;
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+/* end carousel */
+
+/* start content */
+
+.ourservices {
+  background: url("Img/img\ presentation.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.view-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #C0C0C0;
+}
+
+.smallpic {
+  width:calc(1920px/4);
+  height: calc(1080px/4);
+}
+
+.container1 {
+  margin: 50px 0 0 30%;
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+/* end content */
+
+/* start contact */
+
+h1 {
+  font-family: "Poppins" sans-serif;
+}
+
+.bg-primary {
+  background-color: #01d28e!important;
+}
+
+.form-control {
+  height: 36px;
+  background: #fff;
+  color: rgba(0,0,0,0.8);
+  font-size: 14px;
+  border-radius: 2px;
+  box-shadow: none!important;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+.form-control:focus .form-control:active {
+  border-color: #01d28e!important;
+}
+
+.btn-primary {
+  background: #01d28e!important;
+  border-color: #01d28e!important;
+  color: white;
+  width: 100px;
+  border-radius: 0!important;
+}
+
+.btn-warning:hover {
+  background-color: #28a745!important;
+}
+
+.bi {
+  font-size: 50px;
+}
+
+@media only screen and (max-width:600px) {
+  .container{
+    width: 100%!important;
+  }
+}
+/* end contact */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
