@@ -168,7 +168,7 @@ ul {
 /* start content */
 
 .ourservices {
-  background: url("Img/img\ presentation.jpg");
+  background: url("/Img/img\ presentation.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
